@@ -70,6 +70,10 @@ map("o", "j", "n")
 -- map("n", "<C-E>", "5<C-y>")
 -- map("n", "<C-N>", "5<C-e>")
 
+-- Search
+map("n", "-", "Nzz")
+map("n", "=", "nzz")
+
 -- Save and exit
 map("n", "S", ":w<CR>")
 map("n", "Q", ":q<CR>")
